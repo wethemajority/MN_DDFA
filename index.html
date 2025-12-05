@@ -1,51 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DDFA – Data Distribution Fairness Act</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DDFA – Data Distribution Fairness Act</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header class="site-header">
+    <div class="logo-title">
+      <div class="logo-mark">DDFA</div>
+      <div class="logo-text">
+        <span class="kicker">We, The Majority</span>
+        <span class="title">Data Distribution Fairness Act</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <button id="themeToggle" class="ghost-btn">🌙 / ☀</button>
+      <a href="https://change.org/p/pass-the-ddfa-data-distribution-fairness-act" target="_blank" rel="noopener" class="primary-btn">Sign the Petition</a>
+    </div>
+  </header>
 
-<header>
-    <img src="banner.png" alt="DDFA Banner" class="banner">
-</header>
+  <main>
+    <section class="hero card fade-in">
+      <div class="hero-text">
+        <h1>Pass the DDFA (Data Distribution Fairness Act)</h1>
+        <p>
+          Every day, companies profit from our personal data without transparency,
+          consent, or fair compensation. The DDFA is a citizen-driven framework
+          to restore digital rights, protect Minnesotans, and ensure that when data
+          creates value, the public shares in it.
+        </p>
+        <div class="hero-cta">
+          <a href="https://change.org/p/pass-the-ddfa-data-distribution-fairness-act" target="_blank" rel="noopener" class="primary-btn primary-btn-lg">
+            Add Your Name
+          </a>
+          <span class="hero-note">It takes less than 30 seconds.</span>
+        </div>
+        <div class="signature-widget">
+          <div class="sig-label">Community support</div>
+          <div class="sig-counts">
+            <span id="sigCurrent" data-target-count="5">5</span>
+            <span class="sig-divider">/</span>
+            <span id="sigGoal">5000</span>
+            <span class="sig-caption">signatures goal</span>
+          </div>
+          <div class="sig-bar">
+            <div id="sigBarFill" class="sig-bar-fill"></div>
+          </div>
+          <p class="sig-note">
+            Edit this widget manually as your petition grows. See README.md for instructions.
+          </p>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="assets/banner.png" alt="Pass the DDFA banner" class="hero-banner" />
+        <p class="hero-caption">Banner art: “Pass the DDFA (Act)” – Data Distribution Fairness Act.</p>
+      </div>
+    </section>
 
-<section class="intro">
-    <h1>Pass the Data Distribution Fairness Act (DDFA)</h1>
-    <p>
-        The DDFA is a citizen‑driven movement demanding transparency, fairness, and 
-        constitutional digital rights for everyone. Your data has value — the DDFA ensures 
-        you share in the value it creates.
+    <section class="card fade-in delay-1">
+      <h2>Your Digital Rights Under the DDFA</h2>
+      <div class="grid two-col">
+        <ul class="bullet-list">
+          <li><strong>Transparency</strong> about what data is collected, where it goes, and why.</li>
+          <li><strong>Access &amp; deletion</strong> rights for your personal data.</li>
+          <li><strong>Correction</strong> of inaccurate or harmful data.</li>
+          <li><strong>Opt-in only</strong> for any data monetization.</li>
+          <li><strong>Fair compensation</strong> when your data generates profit.</li>
+        </ul>
+        <ul class="bullet-list">
+          <li><strong>Protection from profiling</strong> in housing, work, credit, and services.</li>
+          <li><strong>Algorithmic due process</strong> – the right to an explanation.</li>
+          <li><strong>Security standards</strong> to prevent breaches and misuse.</li>
+          <li><strong>Special safeguards</strong> for children and sensitive data.</li>
+          <li><strong>Enforceable rights</strong> – with real penalties for violations.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card fade-in delay-2">
+      <h2>Read the Minnesota DDFA Draft Bill</h2>
+      <p>
+        The DDFA draft is written in Minnesota House bill style so lawmakers can easily
+        work with it. This document is designed to be handed directly to a legislator
+        or committee staff as a starting point for formal introduction.
+      </p>
+      <a href="MN_DDFA_Option1_HouseStyle.pdf" class="secondary-btn" target="_blank" rel="noopener">
+        Download Full Bill (PDF)
+      </a>
+    </section>
+
+    <section class="card fade-in delay-3">
+      <h2>Updates &amp; Movement Log</h2>
+      <p class="muted">
+        Use this space to log real-world progress so supporters and legislators can see momentum.
+        Edit directly in <code>index.html</code>.
+      </p>
+      <ul class="timeline">
+        <li>
+          <span class="time-tag">Day 1</span>
+          <span class="event">DDFA petition launched on Change.org.</span>
+        </li>
+        <li>
+          <span class="time-tag">Next</span>
+          <span class="event">Collect signatures, schedule meetings with Minnesota legislators, and gather public stories about unfair data practices.</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 DDFA Coalition – “We, The Majority” Digital Rights Initiative.</p>
+    <p class="small">
+      Built for public education and advocacy. This site does not provide legal advice.
     </p>
-    <a href="https://change.org" class="petition-btn">Sign the Petition</a>
-</section>
+  </footer>
 
-<section class="rights">
-    <h2>Your Digital Rights Under the DDFA</h2>
-    <ul>
-        <li>Transparency about what data is collected</li>
-        <li>Access and deletion rights</li>
-        <li>Opt‑in required for data monetization</li>
-        <li>Fair compensation for monetized data</li>
-        <li>Protection from harmful profiling</li>
-        <li>Algorithmic due‑process and explanations</li>
-    </ul>
-</section>
-
-<section class="bill">
-    <h2>Read the Minnesota DDFA Bill</h2>
-    <p>
-        The DDFA legislative text is professionally drafted in Minnesota House format. 
-        Download the official version below.
-    </p>
-    <a href="MN_DDFA_Option1_HouseStyle.pdf" class="download-btn">Download Bill PDF</a>
-</section>
-
-<footer>
-    <p>© 2025 DDFA Movement – “We, The Majority”</p>
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
