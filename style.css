@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0D1A2A;
+    color: #F5F5F5;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.banner {
+    width: 90%;
+    max-width: 900px;
+    border-radius: 6px;
+}
+
+.intro, .rights, .bill {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #11233A;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+h1, h2 {
+    color: #F0E9D6;
+}
+
+.petition-btn, .download-btn {
+    display: inline-block;
+    padding: 12px 22px;
+    margin-top: 15px;
+    color: #0D1A2A;
+    background: #F0E9D6;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.petition-btn:hover, .download-btn:hover {
+    background: #cfc7b2;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+    color: #bbb;
+}
