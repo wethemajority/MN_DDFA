@@ -1,55 +1,45 @@
-/* ------------------------------------------------------
-   DDFA Landing Page — Script.js
-   Handles:
-     • Signature Progress Animation
-     • Smooth Counter Increase
-   ------------------------------------------------------ */
+// Theme toggle + persistence --------------------------------------------
+document.addEventListener("DOMContentLoaded", () => {
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById("themeToggle");
 
-// CONFIG — Update these manually as petition grows
-const SIG_CURRENT = 5;     // Number of signatures right now
-const SIG_GOAL = 5000;     // Goal (can be any #)
+  // Load stored theme if present
+  const stored = localStorage.getItem("ddfa-theme");
+  if (stored === "light" || stored === "dark") {
+    root.setAttribute("data-theme", stored);
+  }
 
-// DOM ELEMENTS
-const elCurrent = document.getElementById("sigCurrent");
-const elGoal = document.getElementById("sigGoal");
-const elBar = document.querySelector(".sig-bar-fill");
+  function updateToggleLabel() {
+    const theme = root.getAttribute("data-theme") || "dark";
+    toggleBtn.textContent =
+      theme === "dark" ? "☀️ Light mode" : "🌙 Dark mode";
+  }
 
-// Safety checks (prevents errors if elements not found)
-if (elCurrent && elGoal) {
-  elCurrent.textContent = SIG_CURRENT.toLocaleString();
-  elGoal.textContent = SIG_GOAL.toLocaleString();
-}
+  if (toggleBtn) {
+    updateToggleLabel();
 
-// Animate Progress Bar
-function animateProgressBar() {
-  if (!elBar) return;
+    toggleBtn.addEventListener("click", () => {
+      const current = root.getAttribute("data-theme") === "light" ? "light" : "dark";
+      const next = current === "light" ? "dark" : "light";
+      root.setAttribute("data-theme", next);
+      localStorage.setItem("ddfa-theme", next);
+      updateToggleLabel();
+    });
+  }
 
-  const pct = Math.min(SIG_CURRENT / SIG_GOAL, 1) * 100;
+  // Signature progress bar ----------------------------------------------
+  const currentEl = document.getElementById("sigCurrent");
+  const goalEl = document.getElementById("sigGoal");
+  const barFill = document.getElementById("sigBarFill");
 
-  // Delay start for a smoother experience
-  setTimeout(() => {
-    elBar.style.width = pct + "%";
-  }, 300);
-}
+  if (currentEl && goalEl && barFill) {
+    const current = parseInt(currentEl.dataset.current || currentEl.textContent, 10) || 0;
+    const goal = parseInt(goalEl.dataset.goal || goalEl.textContent, 10) || 1;
+    const pct = Math.max(0, Math.min(100, (current / goal) * 100));
 
-// Optional: Smooth count-up animation
-function animateCounter() {
-  if (!elCurrent) return;
-
-  let start = 0;
-  const end = SIG_CURRENT;
-  const duration = 900;
-  const stepTime = Math.max(Math.floor(duration / end), 20);
-
-  const counter = setInterval(() => {
-    start++;
-    elCurrent.textContent = start.toLocaleString();
-    if (start >= end) clearInterval(counter);
-  }, stepTime);
-}
-
-// Run animations on load
-window.addEventListener("DOMContentLoaded", () => {
-  animateProgressBar();
-  animateCounter();
+    // small delay so it animates after load
+    requestAnimationFrame(() => {
+      barFill.style.width = pct + "%";
+    });
+  }
 });
