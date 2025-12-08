@@ -1,63 +1,55 @@
-# The Data Distribution Fairness Act (DDFA)
+# The DDFA — Data Distribution Fairness Act
 ### A Digital Rights Initiative by *We, The Majority*
 
-The DDFA is a public, citizen-driven legislative proposal designed to modernize Minnesota’s digital privacy and data rights laws. Today, corporations and data brokers monetize our personal information without transparency, consent, or compensation. The DDFA restores fairness by establishing a Digital Bill of Rights and ensuring individuals share in the economic value their data creates.
+The DDFA is a public-led legislative proposal to establish a Digital Bill of Rights in Minnesota, regulate data monetization, limit harmful profiling, and ensure that individuals share in the economic value created from their personal data.
 
 ---
 
-## 🔍 Why the DDFA Matters
-Personal data has become one of the most profitable resources in the world — yet the people who generate that data receive none of its value. The DDFA introduces:
+## 📘 Constitutional Foundation
+The DDFA is grounded in:
+- **Fourth Amendment** protections from unreasonable digital search/seizure  
+- **First Amendment** rights impacted by algorithmic filtering  
+- **Fourteenth Amendment** equal protection and due process concerns  
 
-- **Transparency** on what data is collected and how it is used  
-- **Access & deletion rights** for personal data  
-- **Opt-in only** consent for data monetization  
-- **Fair economic participation** when data is monetized  
-- **Algorithmic accountability** and human review rights  
-- **Statewide data broker registration**  
-- **Stronger breach notification & security standards**  
-- **Attorney General enforcement + private right of action**
-
-Minnesotans deserve clarity, control, and compensation.
+These principles are outlined in the official proposal PDFs (included).
 
 ---
 
-## 🏛 Legislative Draft
-The full Minnesota DDFA draft is included in this repository:
-
-- `MN_DDFA_Option1_HouseStyle.pdf` — formatted version  
-- `MN_DDFA_Expanded_Draft.pdf` — extended legislative language  
+## 📜 Digital Bill of Rights
+The DDFA guarantees transparency, access, correction, deletion, portability, opt-in monetization, algorithmic due process, privacy protections, and fair compensation.
 
 ---
 
-## 📝 How to Support the DDFA
-1. **Sign the petition:**  
-   https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act
-
-2. **Share the DDFA**  
-   Help spread awareness and restore digital rights to Minnesotans.
-
-3. **Contact your representatives**  
-   Encourage lawmakers to review and sponsor the DDFA in the next legislative cycle.
+## 📄 Legislative Materials
+- **MN_DDFA_Option1_HouseStyle.pdf** — Minnesota Senate-style bill  
+- **MN_DDFA_Expanded_Draft.pdf** — Extended language + full policy overview  
+- **Constitutional Basis & Digital Rights (PDFs)** — Included in repository
 
 ---
 
-## ⚠️ Donation Disclaimer
-The DDFA initiative does *not* receive donations through Change.org. Any donation prompt you encounter supports the Change.org platform itself.  
-Your signature is counted **even if you skip the donation.**
+## 🚀 Support the Movement
+Sign the petition:  
+**https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act**
+
+Share the DDFA with your community, your representatives, and digital rights organizations.
+
+---
+
+## ⚠ Donation Notice
+Change.org may show a donation prompt.  
+This supports their platform — **not the DDFA**.  
+Your signature is counted even if you skip it.
 
 ---
 
 ## 🖼 Assets
-- `assets/banner.png` — DDFA banner  
-- `assets/qr_ddfa.png` — QR code linking to the petition  
-- Social preview image for GitHub  
-- Flyers, graphics, and shareable media
+- Banners  
+- Flyers  
+- Social cards  
+- QR codes  
+- Advocacy graphics  
 
 ---
 
 ## ✨ About the Movement
-“We, The Majority” is a public-first initiative advocating for digital fairness, privacy, transparency, and economic equity. Our goal is to ensure Minnesotans have enforceable digital rights in a rapidly evolving technological landscape.
-
----
-
-
+“We, The Majority” is a citizen-driven effort to restore fairness, transparency, and economic rights in the digital age.
