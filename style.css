@@ -88,15 +88,15 @@ body {
   gap: 10px;
 }
 
-.donation-disclaimer {
-    margin-top: 10px;
-    font-size: 0.85rem;
-    color: #9bb0c9;
-    line-height: 1.4;
+.disclaimer-box {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 200, 0, 0.15);
+  border-left: 4px solid #f1c40f;
+  border-radius: 4px;
+  font-size: 0.9rem;
 }
-.donation-disclaimer strong {
-    color: #dbe8ff;
-}
+
 
 
 /* BUTTONS */
