@@ -1,118 +1,62 @@
-<p align="center">
-  <img src="assets/banner.png" alt="DDFA Banner" width="100%">
-</p>
+# The Data Distribution Fairness Act (DDFA)
+### A Digital Rights Initiative by *We, The Majority*
 
-<h1 align="center">The DDFA Landing Page</h1>
-<p align="center"><strong>We, The Majority — Digital Rights for All</strong></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Digital%20Rights-Protection-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Minnesota-Legislative%20Proposal-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Movement-We%2C%20The%20Majority-purple?style=for-the-badge">
-  <img src="https://img.shields.io/badge/DDFA-Version%201.0-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/GitHub%20Pages-Live-black?style=for-the-badge">
-</p>
+The DDFA is a public, citizen-driven legislative proposal designed to modernize Minnesota’s digital privacy and data rights laws. Today, corporations and data brokers monetize our personal information without transparency, consent, or compensation. The DDFA restores fairness by establishing a Digital Bill of Rights and ensuring individuals share in the economic value their data creates.
 
 ---
 
-## 🌐 Live Site
-Your public DDFA landing page is available at:
+## 🔍 Why the DDFA Matters
+Personal data has become one of the most profitable resources in the world — yet the people who generate that data receive none of its value. The DDFA introduces:
 
-👉 **https://wethemajority.github.io/DDFA/**
+- **Transparency** on what data is collected and how it is used  
+- **Access & deletion rights** for personal data  
+- **Opt-in only** consent for data monetization  
+- **Fair economic participation** when data is monetized  
+- **Algorithmic accountability** and human review rights  
+- **Statewide data broker registration**  
+- **Stronger breach notification & security standards**  
+- **Attorney General enforcement + private right of action**
 
----
-
-## 📄 About the DDFA
-The **Data Distribution Fairness Act (DDFA)** is a proposed Minnesota digital rights bill designed to:
-
-- Require transparency when data is collected  
-- Prohibit dark patterns  
-- Limit data brokers  
-- Ensure opt-in consent  
-- Establish algorithmic fairness  
-- Guarantee breach notifications  
-- **Provide fair compensation** when data is monetized  
-
-Your data has value — and **so do you.**
+Minnesotans deserve clarity, control, and compensation.
 
 ---
 
-## 📝 Download the Bill (PDF)
-A professionally formatted Minnesota legislative draft is included here:
+## 🏛 Legislative Draft
+The full Minnesota DDFA draft is included in this repository:
 
-👉 **[MN_DDFA_Option1_HouseStyle.pdf](MN_DDFA_Option1_HouseStyle.pdf)**
-
----
-
-## ✊ Sign the Petition
-Help support modern digital rights and fair data laws:
-
-### 🔗 **https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act**
-
-Or scan the QR code:
-
-<p align="center">
-  <img src="assets/qr_ddfa.png" alt="QR Code" width="250">
-</p>
+- `MN_DDFA_Option1_HouseStyle.pdf` — formatted version  
+- `MN_DDFA_Expanded_Draft.pdf` — extended legislative language  
 
 ---
 
-## 📂 Repository Structure
+## 📝 How to Support the DDFA
+1. **Sign the petition:**  
+   https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act
 
-| File / Folder | Purpose |
-|--------------|----------|
-| `index.html` | Main landing page |
-| `style.css` | Stylesheet (themes, layout, UI animations) |
-| `script.js` | Theme toggle + petition progress logic |
-| `assets/banner.png` | Social/banner image |
-| `assets/favicon.svg` | Browser tab icon |
-| `assets/qr_ddfa.png` | Petition QR code |
-| `MN_DDFA_Option1_HouseStyle.pdf` | Full Minnesota bill PDF |
+2. **Share the DDFA**  
+   Help spread awareness and restore digital rights to Minnesotans.
+
+3. **Contact your representatives**  
+   Encourage lawmakers to review and sponsor the DDFA in the next legislative cycle.
 
 ---
 
-## 🚀 Deployment Instructions (GitHub Pages)
-
-1. Open your repo on GitHub  
-2. Go to **Settings → Pages**  
-3. Under **Build and Deployment:**  
-   - **Source:** `Deploy from branch`  
-   - **Branch:** `main`  
-   - **Folder:** `/ (root)`  
-4. Click **Save**
-
-Your site will deploy in 15–60 seconds.
+## ⚠️ Donation Disclaimer
+The DDFA initiative does *not* receive donations through Change.org. Any donation prompt you encounter supports the Change.org platform itself.  
+Your signature is counted **even if you skip the donation.**
 
 ---
 
-## 🤝 How to Contribute
-
-We welcome public involvement. You can:
-
-### Contribute ideas  
-Submit issues for:
-- Improvements to the bill  
-- Additional rights we should include  
-- UX/UI improvements to the landing page  
-
-### Contribute code  
-Pull requests are welcome for:
-- HTML/CSS improvements  
-- Better mobile layout  
-- Accessibility upgrades  
-
-### Contribute activism  
-You can help by:
-- Sharing the petition  
-- Sending the DDFA to lawmakers  
-- Printing the PDF and distributing copies  
-- Creating social content and graphics  
+## 🖼 Assets
+- `assets/banner.png` — DDFA banner  
+- `assets/qr_ddfa.png` — QR code linking to the petition  
+- Social preview image for GitHub  
+- Flyers, graphics, and shareable media
 
 ---
 
-## 📣 Movement Motto
-> **“Your data has value. So do you.”**
+## ✨ About the Movement
+“We, The Majority” is a public-first initiative advocating for digital fairness, privacy, transparency, and economic equity. Our goal is to ensure Minnesotans have enforceable digital rights in a rapidly evolving technological landscape.
 
-<p align="center">
-  <img src="assets/banner.png" width="60%">
-</p>
+---
+
