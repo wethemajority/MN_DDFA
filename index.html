@@ -10,90 +10,122 @@
 <body>
 
 <header class="site-header">
-  <div class="logo-title">
+  <div class="logo-wrap">
     <div class="logo-mark">DDFA</div>
     <div class="logo-text">
-      <span class="kicker">Digital Rights Movement</span>
-      <span class="title">Data Distribution Fairness Act</span>
+      <span class="logo-kicker">Digital Rights Initiative</span>
+      <span class="logo-title">MN Data Distribution Fairness Act</span>
     </div>
   </div>
 
   <div class="header-actions">
-    <a class="secondary-btn" href="https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act" target="_blank">
-      Sign the Petition
+    <button id="themeToggle" class="ghost-btn">Toggle Theme</button>
+
+    <a class="primary-btn"
+       href="https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act"
+       target="_blank">
+       Sign the Petition
     </a>
   </div>
 </header>
 
+
 <main>
 
-  <!-- HERO SECTION -->
+  <!-- HERO -->
   <section class="card hero fade-in">
     <div class="hero-text">
       <h1>THE DDFA — Data Distribution Fairness Act</h1>
-      <p>
-        The DDFA establishes a Digital Bill of Rights, regulates the monetization of personal data,
-        ensures fair compensation, transparency, and protects Minnesotans against harmful profiling.
+
+      <p class="lead">
+        A Digital Bill of Rights designed to restore transparency, fairness,
+        and public control over how personal data is used and monetized.
       </p>
 
-      <div class="hero-cta">
-        <a class="primary-btn primary-btn-lg"
-           href="https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act"
-           target="_blank">
-           Sign the Petition
-        </a>
-        <p class="hero-note">
-          <strong>Note:</strong> Signing is always free. Change.org may request a donation afterward —
-          this supports their platform, not the DDFA.
-        </p>
-      </div>
+      <a class="primary-btn primary-btn-lg"
+         href="https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act"
+         target="_blank">
+         Sign the Petition
+      </a>
+
+      <p class="donation-note">
+        <strong>Note:</strong> Signing is always free.
+        Change.org may request a donation afterward — this supports their platform,
+        not the DDFA.
+      </p>
     </div>
 
     <div class="hero-media">
       <img src="assets/banner.png" class="hero-banner" alt="DDFA Banner" />
-      <p class="hero-caption">A Digital Rights Movement for Minnesotans.</p>
+      <p class="hero-caption">A movement for data fairness, transparency, and consent.</p>
     </div>
   </section>
 
-  <!-- BILL OF RIGHTS -->
-  <section class="card fade-in delay-1">
+
+  <!-- QR + PROPOSAL DOWNLOAD -->
+  <section class="card fade-in delay-1 download-section">
+    <h2>Download the Official DDFA Proposal</h2>
+
+    <div class="download-grid">
+      <a class="secondary-btn proposal-btn"
+         href="assets/MN_DDFA_Official_Proposal.pdf"
+         target="_blank">
+         📄 View Proposal PDF
+      </a>
+
+      <div class="qr-container">
+        <img src="assets/qr_ddfa.png" alt="DDFA QR Code" class="qr-code" />
+        <p class="qr-label">Scan to Sign the Petition</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- DIGITAL BILL OF RIGHTS -->
+  <section class="card fade-in delay-2">
     <h2>Digital Bill of Rights</h2>
+
     <ul class="bullet-list">
       <li>Right to Transparency</li>
-      <li>Right to Access, Correction, and Deletion</li>
-      <li>Right to Consent and Opt-In Monetization</li>
+      <li>Right to Access, Correction & Deletion</li>
+      <li>Right to Consent & Opt-In Monetization</li>
       <li>Right to Portability</li>
       <li>Right to Algorithmic Due Process</li>
       <li>Right to Fair Compensation</li>
     </ul>
   </section>
 
+
   <!-- WHAT THE DDFA DOES -->
-  <section class="card fade-in delay-2">
+  <section class="card fade-in delay-3">
     <h2>What the DDFA Does</h2>
-    <p class="muted">
-      The DDFA ensures transparency, regulates profiling, enforces strong data security,
-      mandates data broker registration, and establishes equitable economic participation when
-      personal data is monetized.
+    <p>
+      The DDFA establishes guardrails for corporate data practices,
+      bans harmful profiling, enforces strong security standards, and requires
+      transparent accounting when data generates revenue.
     </p>
   </section>
 
+
   <!-- WHY IT MATTERS -->
-  <section class="card fade-in delay-3">
+  <section class="card fade-in delay-4">
     <h2>Why It Matters</h2>
-    <p class="muted">
-      Minnesotans deserve digital self-determination. The DDFA protects vulnerable communities,
-      restores trust, reduces exploitation, and ensures individuals benefit from the economic value
-      their data creates.
+    <p>
+      Minnesotans deserve digital self-determination.
+      The DDFA restores trust, protects vulnerable communities,
+      reduces exploitation, and ensures that individuals benefit from
+      the value their data creates.
     </p>
   </section>
 
 </main>
 
+
 <footer class="site-footer">
-  <p>MN Data Distribution Fairness Act — A Public Interest Digital Rights Initiative</p>
-  <p class="small">Website hosted on GitHub Pages</p>
+  <p>MN Digital Rights Initiative — Data Distribution Fairness Act</p>
+  <p class="small">Website hosted transparently on GitHub Pages.</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
