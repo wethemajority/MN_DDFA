@@ -41,6 +41,11 @@ The full Minnesota DDFA draft is included in this repository:
 
 ---
 
+## ⚠️ Donation Disclaimer
+The DDFA initiative does *not* receive donations through Change.org. Any donation prompt you encounter supports the Change.org platform itself.  
+Your signature is counted **even if you skip the donation.**
+
+---
 
 ## 🖼 Assets
 - `assets/banner.png` — DDFA banner  
@@ -55,9 +60,4 @@ The full Minnesota DDFA draft is included in this repository:
 
 ---
 
-## ⚠️ Donation Disclaimer
-The DDFA initiative does *not* receive donations through Change.org. Any donation prompt you encounter supports the Change.org platform itself.  
-Your signature is counted **even if you skip the donation.**
-
----
 
