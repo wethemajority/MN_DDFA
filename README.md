@@ -41,11 +41,6 @@ The full Minnesota DDFA draft is included in this repository:
 
 ---
 
-## ⚠️ Donation Disclaimer
-The DDFA initiative does *not* receive donations through Change.org. Any donation prompt you encounter supports the Change.org platform itself.  
-Your signature is counted **even if you skip the donation.**
-
----
 
 ## 🖼 Assets
 - `assets/banner.png` — DDFA banner  
@@ -57,6 +52,12 @@ Your signature is counted **even if you skip the donation.**
 
 ## ✨ About the Movement
 “We, The Majority” is a public-first initiative advocating for digital fairness, privacy, transparency, and economic equity. Our goal is to ensure Minnesotans have enforceable digital rights in a rapidly evolving technological landscape.
+
+---
+
+## ⚠️ Donation Disclaimer
+The DDFA initiative does *not* receive donations through Change.org. Any donation prompt you encounter supports the Change.org platform itself.  
+Your signature is counted **even if you skip the donation.**
 
 ---
 
