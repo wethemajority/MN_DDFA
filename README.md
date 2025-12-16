@@ -1,19 +1,19 @@
-📘 MN_DDFA — Data Distribution Fairness Act (Minnesota)
+📘 MN_DFA — Data Fairness Act (Minnesota)
 A Digital Rights Movement Protecting Minnesotans’ Data, Privacy, and Economic Value
 
-The Data Distribution Fairness Act (DDFA) is a citizen-driven legislative proposal designed to establish a Digital Bill of Rights in Minnesota, regulate the monetization of personal data, and ensure that individuals benefit fairly from the economic value their data creates.
+The Data Fairness Act (DFA) is a citizen-driven legislative proposal designed to establish a Digital Bill of Rights in Minnesota, regulate the monetization of personal data, and ensure that individuals benefit fairly from the economic value their data creates.
 
-This repository hosts the public landing page, official proposal PDFs, signature progress widget, and public materials supporting the DDFA.
+This repository hosts the public landing page, official proposal PDFs, signature progress widget, and public materials supporting the DFA.
 
 Live Site:
-👉 https://wethemajority.github.io/MN_DDFA/
+👉 https://wethemajority.github.io/MN_DFA/
 
 Official Petition:
-👉 https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act
+👉 https://www.change.org/p/pass-the-dfa-data-fairness-act-minnesota-digital-rights-legislation
 
 📜 Purpose of This Repository
 
-This repo is the public-facing informational hub for the DDFA. It provides:
+This repo is the public-facing informational hub for the DFA. It provides:
 
 A clean, accessible landing page explaining the Act
 
@@ -29,7 +29,7 @@ A reference implementation for citizens, legislators, activists, or technical co
 
 This project is open, transparent, and public by design.
 
-🧭 Why the DDFA Matters
+🧭 Why the DFA Matters
 
 Minnesotans' personal data is being:
 
@@ -37,7 +37,7 @@ Minnesotans' personal data is being:
 • Monetized without compensation
 • Used in profiling systems that influence housing, credit, employment, and opportunity
 
-The DDFA establishes:
+The DFA establishes:
 
 Transparency mandates
 
@@ -57,19 +57,18 @@ This is a Digital Bill of Rights built for the modern era.
 
 📄 Legislative Documents
 
-All official DDFA proposal documents are stored under assets/.
+All official DFA proposal documents are stored under assets/.
 
 Included Files
 File	Description
-MN_DDFA_Official_Proposal.pdf	Clean, formal legislative draft (ready for submission).
-MN_DDFA_Expanded_Draft.pdf	Extended version with deeper definitions, enforcement terms, and compliance sections.
+MN_DFA_Official_Proposal.pdf	Clean, formal legislative draft (ready for submission).
 banner.png	Website + social sharing banner.
-qr_ddfa.png	QR code directing to the MN_DDFA landing page.
+qr_dfa.png	QR code directing to the MN_DFA landing page.
 🌐 Live Landing Page
 
 The landing page includes:
 
-Overview of the DDFA
+Overview of the DFA
 
 Summary of rights
 
@@ -86,7 +85,7 @@ Downloadable official proposal PDFs
 If something looks off in the layout, adjust style.css or contact the maintainers.
 
 📦 Project Structure
-MN_DDFA/
+MN_DFA/
 │
 ├── index.html            # Main landing page
 ├── style.css             # Stylesheet with dark/light theme variables
@@ -94,17 +93,16 @@ MN_DDFA/
 ├── README.md             # You're reading it now
 │
 └── assets/
-    ├── MN_DDFA_Official_Proposal.pdf
-    ├── MN_DDFA_Expanded_Draft.pdf
+    ├── MN_DFA_Official_Proposal.pdf
     ├── banner.png
-    └── qr_ddfa.png
+    └── qr_dfa.png
 
 🔧 How to Run Locally
 
 Clone the repo:
 
-git clone https://github.com/wethemajority/MN_DDFA.git
-cd MN_DDFA
+git clone https://github.com/wethemajority/MN_DFA.git
+cd MN_DFA
 
 
 Open index.html in any browser.
@@ -126,7 +124,7 @@ Source: main
 Save
 
 Site will be available at:
-https://wethemajority.github.io/MN_DDFA/
+https://wethemajority.github.io/MN_DFA/
 
 🤝 Contributing
 
@@ -151,7 +149,7 @@ Pull requests are welcome.
 🛑 Donation Disclaimer (Required)
 
 Change.org may prompt users to donate after signing.
-This has no impact on the DDFA movement.
+This has no impact on the DFA movement.
 Your signature is counted even if you skip the donation prompt.
 
 This disclaimer is also included on the landing page.
@@ -160,10 +158,10 @@ This disclaimer is also included on the landing page.
 
 To collaborate or connect:
 
-📧 Contact: (Your preferred public contact email)
-🌐 Petition: https://www.change.org/p/pass-the-ddfa-data-distribution-fairness-act
+📧 Contact: 
+🌐 Petition: https://www.change.org/p/pass-the-dfa-data-fairness-act-minnesota-digital-rights-legislation
 
-🔗 Landing Page: https://wethemajority.github.io/MN_DDFA/
+🔗 Landing Page: https://wethemajority.github.io/MN_DFA/
 
 🗽 “We the Majority”
 
